@@ -1,5 +1,5 @@
 import { Link } from 'react-router' // imports Link to don't reload the page when changing the path on the URL
-import '../style/Navbar.module.css'
+import '../style/Navbar.css'
 
 function Navbar() {
   return (
