@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import { Route, Routes } from "react-router"
 import Navbar from './components/Navbar'
-import './App.css'
+import Welcome from './pages/Welcome'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -9,8 +9,9 @@ function App() {
   return (
     <>
       <Navbar/>
+      <Welcome/>
       <Routes>
-        <Route path='/' element={'componenet-here'}></Route>
+        {/* <Route path='/' element={}></Route> */}
       </Routes>
     </>
   )
