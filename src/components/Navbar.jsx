@@ -3,21 +3,13 @@ import '../style/Navbar.css'
 
 function Navbar() {
   return (
-    <div className='fixed flex w-screen justify-center'>
-      <nav className='rounded-b-3xl de p-7 bg-neutral-500 px-40 text-3xl'>
-        <ul className='flex justify-between gap-40'>
-          <li>
-            <Link className='' to='/'> about-me</Link>
-          </li>
-          <li>
-            <Link className='' to='/'> projects </Link>
-          </li>
-          <li>
-            <Link className='' to='/'> skills </Link>
-          </li>
-          <li>
-            <Link className='' to='/'> socials </Link>
-          </li>
+    <div className='fixed hidden md:flex w-screen justify-center'>
+      <nav className='nav-bar rounded-b-3xl p-5 lg:px-28 lg:text-2xl md:px-20'>
+        <ul className='flex justify-between gap-20 font-semibold'>
+          <li><Link to='/'>about-me</Link></li>
+          <li><Link to='/'>projects</Link></li>
+          <li><Link to='/'>skills</Link></li>
+          <li><Link to='/'>socials</Link></li>
         </ul>
       </nav>
     </div>

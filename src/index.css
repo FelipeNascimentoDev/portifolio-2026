@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Handlee:wght@400..700&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -7,14 +8,15 @@
   background-color: #242424;
 }
 
+.text-special {
+  font-family: 'Halndlee', cursive;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
 body {
   margin: 0;
   display: flex;
-}
-
-h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
 }
 
 button {

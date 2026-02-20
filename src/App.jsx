@@ -10,9 +10,9 @@ function App() {
     <>
       <Navbar/>
       <Welcome/>
-      <Routes>
+      {/* <Routes> */}
         {/* <Route path='/' element={}></Route> */}
-      </Routes>
+      {/* </Routes> */}
     </>
   )
 }

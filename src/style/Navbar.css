@@ -1,18 +1,19 @@
-nav { 
-    margin-top: -4.3rem;
+.nav-bar { 
+    margin-top: -3.1rem;
     transition: ease, 1s;
-    color: white;
+    color: rgb(0, 0, 0);
+    background-color: rgba(187, 187, 187, 0.70);
 }
 
-nav:hover {
+.nav-bar:hover {
     margin-top: 0;
     transition: ease, 1s;
-    background-color: rgba(255, 255, 255, 0.10);
-    box-shadow: 0px 0px 15px 1px rgba(255, 255, 255, 0.15);
+    background-color: rgba(255, 255, 255, 0.90);
+    box-shadow: 0px 0px 15px 1px rgba(255, 255, 255, 0.70);
 }
 
 li:hover {
-    text-shadow: white 0px 0px 12px;
+    text-shadow: rgba(0, 0, 0, 0.70) 0px 0px 12px;
 }
 
 ul {
