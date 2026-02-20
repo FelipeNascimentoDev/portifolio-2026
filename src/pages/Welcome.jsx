@@ -1,4 +1,5 @@
 import '../style/Welcome.css'
+import my_photo from '../assets/PictureMyself-PNG.png';
 
 function Welcome() {
 
@@ -33,7 +34,7 @@ const items = ["FelipeNavas", "-SoftwareDev", "-ProblemSolver", "-SystemAnalyst"
           ))}
         </div>
         <div className='justify-items-center lg:w-96 md:w-72 w-80 mx-14'>
-          <img src="public/PictureMyself-PNG.png" className="animate-me"/> 
+          <img src={my_photo} className="animate-me"/>
         </div>
       </div>
     </div>
