@@ -1,10 +1,41 @@
-import img from '../assets/Section_01_Welcome_Top.jpg'
+import '../style/Welcome.css'
 
 function Welcome() {
+
+const items = ["FelipeNavas", "-SoftwareDev", "-ProblemSolver", "-SystemAnalyst", "- Programmer"];
+
   return (
-    <div>
-        <img src={img} alt='welcome page image'/>
-        
+    <div
+    className="
+    bg-black
+    "
+    >
+      <div id='container' className='
+      h-screen w-screen
+      place-content-center justify-items-center
+      text-4xl lg:text-7xl md:text-6xl
+      lg:flex md:items-center'
+      >
+        <div id="text" className="w-fit mx-20">
+          {items.map((item, itemIndex) => (
+            <div key={itemIndex} className={`line line-${itemIndex + 1}`}>
+              <p className="word fancy flex justify-between my-5">
+                {item.split("").map((char, charIndex) => (
+                  <span 
+                    key={charIndex} 
+                    className={`letter text${itemIndex + 1}`}
+                  >
+                    {char}
+                  </span>
+                ))}
+              </p>
+            </div>
+          ))}
+        </div>
+        <div className='justify-items-center lg:w-96 md:w-72 w-80 mx-14'>
+          <img src="public/PictureMyself-PNG.png" className="animate-me"/> 
+        </div>
+      </div>
     </div>
   )
 }
