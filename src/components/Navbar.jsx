@@ -3,7 +3,7 @@ import '../style/Navbar.css'
 
 function Navbar() {
   return (
-    <div className='fixed hidden md:flex w-screen justify-center'>
+    <div className='fixed hidden md:flex w-full justify-center'>
       <nav className='nav-bar rounded-b-3xl p-5 lg:px-28 lg:text-2xl md:px-20'>
         <ul className='flex justify-between gap-20 font-semibold'>
           <li><Link to='/'>about-me</Link></li>
