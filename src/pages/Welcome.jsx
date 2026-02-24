@@ -7,7 +7,7 @@ const items = ["FelipeNavas", "-SoftwareDev", "-ProblemSolver", "-SystemAnalyst"
 
   return (
     <div className="bg-black
-    w-full h-full lg:py-40 py-32"
+    w-full h-full lg:py-48 pt-32"
     >
       <div id='container'
         className='
