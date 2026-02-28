@@ -68,6 +68,7 @@
 
 .line-1{
     font-weight: bold;
+    color: darkgoldenrod;
 }
 
 #container:has(.line-1:hover) .animate-me {
