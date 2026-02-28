@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Handlee:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -25,10 +25,11 @@ html, body {
 }
 
 
-.text-special {
-  font-family: 'Halndlee', cursive;
-  font-optical-sizing: auto;
+.special-text {
+  font-family: "Gloria Hallelujah", cursive;
+  font-weight: 500;
   font-style: normal;
+  font-optical-sizing: auto;
 }
 
 
