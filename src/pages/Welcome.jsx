@@ -31,7 +31,7 @@ const items = ["FelipeNavas", "-SoftwareDev", "-ProblemSolver", "-SystemAnalyst"
             </div>
           ))}
         </div>
-        <div className='justify-items-center lg:w-96 md:w-72 w-80 mx-14 lg:my-0 md:my-12 my-16'>
+        <div className='justify-items-center lg:w-1/3 md:w-1/2 w-80 mx-14 lg:my-0 md:my-12 my-16'>
           <img src={my_photo} className="animate-me"/>
         </div>
       </div>
