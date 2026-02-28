@@ -3,7 +3,7 @@ import my_photo from '../assets/PictureMyself-PNG.png';
 
 function Welcome() {
 
-const items = ["FelipeNavas", "-SoftwareDev", "-ProblemSolver", "-SystemAnalyst", "- Programmer"];
+const items = ["FelipeNavas", "-SoftwareDev", "-ProblemSolver", "-Programmer", "-VideoEditor"];
 
   return (
     <div className="bg-black
