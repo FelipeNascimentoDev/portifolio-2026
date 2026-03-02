@@ -11,7 +11,7 @@ function MySkills() {
     "javascript/javascript-original",    
     "react/react-original",
     "reactrouter/reactrouter-original",
-    "tailwindcss/tailwindcss-original-wordmark",
+    "tailwindcss/tailwindcss-original",
     "spring/spring-original",
     "vscode/vscode-original",
     "photoshop/photoshop-original",
@@ -27,12 +27,15 @@ function MySkills() {
     "chrome/chrome-original",
     "railway/railway-original",
     "nodejs/nodejs-original-wordmark",
-    "vitejs/vitejs-original"
+    "vitejs/vitejs-original",
+    "json/json-original",
+    "oauth/oauth-plain",
+    "vercel/vercel-original"
   ]
 
 
   return (
-    <div className="bg-[linear-gradient(to_bottom,black,white,white,white,white,white,black)]
+    <div className="bg-[linear-gradient(to_bottom,black,white,white,white,white,white)]
     bg-cover bg-center bg-no-repeat w-full h-full -mt-1
     md:pb-44 sm:pb-48 pb-24
     md:pt-32 sm:pt-36 pt-20">
