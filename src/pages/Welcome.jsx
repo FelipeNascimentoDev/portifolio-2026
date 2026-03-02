@@ -6,7 +6,7 @@ function Welcome() {
 const items = ["FelipeNavas", "-SoftwareDev", "-ProblemSolver", "-Programmer", "-VideoEditor"];
 
   return (
-    <div className="bg-black
+    <div className="bg-black -mt-1
     w-full h-full lg:py-48 pt-32"
     >
       <div id='container'
