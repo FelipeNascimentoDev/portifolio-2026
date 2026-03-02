@@ -2,7 +2,7 @@ import { useState } from 'react'
 import { Route, Routes } from "react-router"
 import Navbar from './components/Navbar'
 import Welcome from './pages/Welcome'
-import WhoAmI from './pages/WhoAmI'
+import MySkills from './pages/MySkills'
 import AboutMe from './pages/AboutMe'
 
 function App() {
@@ -12,8 +12,8 @@ function App() {
     <>
       <Navbar/>
       <Welcome/>
-      <WhoAmI/>
-      <AboutMe/>
+      <MySkills/>
+      {/* <AboutMe/> */}
       {/* <Routes> */}
         {/* <Route path='/' element={}></Route> */}
       {/* </Routes> */}
