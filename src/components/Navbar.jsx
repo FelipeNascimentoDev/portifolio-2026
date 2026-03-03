@@ -9,7 +9,7 @@ function Navbar() {
   const menuItems = ["projects", "skills", "about me", "socials"]
   
   return (
-    <div className={`bg-black duration-[800ms] ease ${isMenuOpen ? "pb-44" : "pb-0"}`}>
+    <div className={`bg-black duration-[800ms] ease ${isMenuOpen ? "pb-44" : "pb-0"} father-nav-bar`}>
 
       {/* NOT-MOBILE */}
       <div className='fixed hidden lg:flex w-full justify-center'>
@@ -29,7 +29,7 @@ function Navbar() {
       <div className='fixed lg:hidden'>
 
         <div className={`fixed flex flex-col text-3xl ${isMenuOpen ? "-mt-0" : "-mt-[15.3rem]"} ease duration-[1200ms]`}>
-          <nav className='bg-[linear-gradient(to_bottom,gray,white)] rounded-br-2xl'>
+          <nav className='bg-[linear-gradient(to_bottom,yellow,darkgoldenrod)] rounded-br-2xl'>
             <ul className='grid grid-cols-1 py-5 w-screen text-black text-center font-bold'>
               {menuItems.map((menuItem,menuItemIndex)=>(
                 <li key={menuItemIndex} className='py-2'>
@@ -41,7 +41,7 @@ function Navbar() {
         </div>
 
         
-        <button className={`bg-[linear-gradient(to_bottom,white,white,gray)] px-8 py-4
+        <button className={`bg-[linear-gradient(to_bottom,darkgoldenrod,darkgoldenrod,yellow)] px-8 py-4
         text-3xl rounded-b-2xl text-black ${isMenuOpen ? "mt-[245px]" : "-mt- font-bold"} ease duration-[1200ms]`}
         onClick={()=>setIsMenuOpen(!isMenuOpen)}>
           ≡
