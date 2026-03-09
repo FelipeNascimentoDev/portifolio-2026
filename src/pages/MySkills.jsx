@@ -35,7 +35,7 @@ function MySkills() {
 
 
   return (
-    <div className="bg-[linear-gradient(to_bottom,black,white,white,white,white,white)]
+    <div className="bg-[linear-gradient(to_bottom,gray,white,white,white,white,white)]
     bg-cover bg-center bg-no-repeat w-full h-full -mt-1
     md:pb-44 sm:pb-48 pb-24
     md:pt-32 sm:pt-36 pt-20">
@@ -44,7 +44,7 @@ function MySkills() {
 
         <div className="min-h-[100px] rounded-2xl pb-20
         md:col-span-4 sm:col-span-3 col-span-2
-        font-bold text-white
+        font-bold text-black
         place-content-center">
           <h1 className="sm:text-8xl text-6xl">These are my skills...</h1>
         </div>
