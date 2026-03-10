@@ -3,7 +3,7 @@ import { Route, Routes } from "react-router"
 import Navbar from './components/Navbar'
 import Welcome from './pages/Welcome'
 import MySkills from './pages/MySkills'
-import AboutMe from './pages/AboutMe'
+import MyProjects from './pages/MyProjects'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -12,8 +12,8 @@ function App() {
     <>
       <Navbar/>
       <Welcome/>
+      <MyProjects/>
       <MySkills/>
-      {/* <AboutMe/> */}
       {/* <Routes> */}
         {/* <Route path='/' element={}></Route> */}
       {/* </Routes> */}
