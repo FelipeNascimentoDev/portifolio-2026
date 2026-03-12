@@ -1,7 +1,7 @@
 
 export const carouselData = [
-  { id: 1, title: "Meal4You: Recommendation System",
-    role: "Backend Developer - Java",
+  { id: 1, title: "Meal4You Recommendation System",
+    role: "Java Backend Developer",
     bulletPoints: [
       "• Decreased login and register time by more then 50% after implementing Google Social with OAuth 2.0",
       "• Improved database query performance by implementing server-side pagination (10 items per request), ensuring that only the necessary data is retrieved for each page load and reducing unnecessary data transfer",
@@ -45,7 +45,7 @@ export const carouselData = [
       "• Deployed the frontend application on Vercel, leveraging the platform\u2019s infrastructure for fast and reliable hosting",
       "• Utilized serverless functions to securely retrieve data from the API and configured environment variables to protect sensitive information"
     ],
-    gitHubProjectLink: "https://github.com/FelipeNascimentoDev/PAOO-P2-microsservicos/commits/main/",
+    gitHubProjectLink: "https://github.com/FelipeNascimentoDev/portifolio-2026",
     certificateLink: ""
   }
 ];
