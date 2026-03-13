@@ -1,3 +1,4 @@
+import GitHubStats from '../components/GitHubStats'
 import '../style/MySkills.css'
 
 function MySkills() {
@@ -65,6 +66,9 @@ function MySkills() {
             })}
 
       </div>
+
+      <GitHubStats/>
+
     </div>
   )
 }
