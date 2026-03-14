@@ -7,7 +7,7 @@ function GitHubStats() {
   return (
     <div className='justify-items-center items-center
     grid md:grid-cols-1
-    mt-32 py-7 bg-neutral-700'>
+    mt-16 py-7 bg-neutral-700'>
 
       <h1 className='mb-10 text-center font-semibold md:text-6xl sm:text-5xl text-4xl mx-5'>
         {`Live ${currentYear}\u2019s GitHub Statistics`}
