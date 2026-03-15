@@ -29,7 +29,7 @@ function MyProjects() {
 
 
   return (
-    <div className="bg-neutral-800 h-full w-full
+    <div id='projects' className="bg-neutral-800 h-full w-full
     text-center -mt-1">
 
       <h1 className="xl:text-8xl lg:text-7xl text-5xl font-bold sm:py-20 pt-24 pb-14 mx-10">

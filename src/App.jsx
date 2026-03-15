@@ -1,5 +1,4 @@
 import { useState } from 'react'
-import { Route, Routes } from "react-router"
 import Navbar from './components/Navbar'
 import Welcome from './pages/Welcome'
 import MySkills from './pages/MySkills'
@@ -9,7 +8,6 @@ import Socials from './pages/Socials'
 import Footer from './components/Footer'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
@@ -20,9 +18,6 @@ function App() {
       <GitHubStats/>
       <Socials/> 
       <Footer/>
-      {/* <Routes> */}
-        {/* <Route path='/' element={}></Route> */}
-      {/* </Routes> */}
     </>
   )
 }

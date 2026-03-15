@@ -6,7 +6,7 @@ function Navbar() {
 
   const [isMenuOpen, setIsMenuOpen] = useState(false) //initializes the mobile menu as 'closed'
 
-  const menuItems = ["projects", "skills", "about me", "socials"]
+  const menuItems = ["about", "projects", "skills", "socials"]
   
   return (
     <div className={`bg-black duration-[800ms] ease ${isMenuOpen ? "pb-44" : "pb-0"} father-nav-bar`}>
@@ -17,7 +17,7 @@ function Navbar() {
           <ul className='flex justify-between gap-20 font-semibold'>
             {menuItems.map((menuItem,menuItemIndex)=>(
               <li key={menuItemIndex}>
-                <Link to='/'>{menuItem}</Link>
+                <a href={`#${menuItem}`} to='/'>{menuItem}</a>
               </li>
             ))}
           </ul>
@@ -33,7 +33,7 @@ function Navbar() {
             <ul className='grid grid-cols-1 py-5 w-screen text-black text-center font-bold'>
               {menuItems.map((menuItem,menuItemIndex)=>(
                 <li key={menuItemIndex} className='py-2'>
-                  <Link to='/'>{menuItem}</Link>
+                  <a href={`#${menuItem}`} to='/'>{menuItem}</a>
                 </li>
               ))}
             </ul>

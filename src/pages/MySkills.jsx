@@ -35,7 +35,7 @@ function MySkills() {
 
 
   return (
-    <div className="bg-[linear-gradient(to_bottom,gray,white,white,white,white,white)]
+    <div id='skills' className="bg-[linear-gradient(to_bottom,gray,white,white,white,white,white)]
     bg-cover bg-center bg-no-repeat w-full h-full -mt-1
     pb-20 sm:pt-24 pt-20">
       <div className="grid md:gap-7 gap-5  md:grid-cols-4 sm:grid-cols-3 grid-cols-2 mx-5

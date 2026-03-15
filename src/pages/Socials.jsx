@@ -1,7 +1,7 @@
 
 function Socials() {
   return (
-    <div className="bg-neutral-300 h-full w-full
+    <div id='socials' className="bg-neutral-300 h-full w-full
     text-center -mt-1 py-10">
       
       <h1 className="text-black text-5xl font-semibold pb-5">SOCIALS</h1>
