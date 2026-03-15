@@ -2,11 +2,11 @@
 function Socials() {
   return (
     <div className="bg-neutral-300 h-full w-full
-    text-center -mt-1">
+    text-center -mt-1 py-10">
       
-      <h1 className="text-black text-5xl font-semibold py-10">SOCIALS</h1>
+      <h1 className="text-black text-5xl font-semibold pb-5">SOCIALS</h1>
 
-      <div className="justify-center flex gap-10 py-16">
+      <div className="justify-center flex gap-10 pt-4">
         <a target="_blank" href="https://LinkedIn.com/in/felipe-navas-nascimento">
           <img src="https://img.icons8.com/color/96/linkedin.png"/>
         </a>
