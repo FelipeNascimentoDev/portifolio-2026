@@ -1,4 +1,3 @@
-import { Link } from 'react-router' // imports Link to don't reload the page when changing the path on the URL
 import { useState } from 'react'
 import '../style/Navbar.css'
 
